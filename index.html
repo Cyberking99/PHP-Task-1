@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html>
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>PHP Contact Form</title>
+</head>
+
+<body> 
+	<h1>CONTACT FORM</h1><br>
+	<form method="post" action="processForm.php">
+		<label>Firstname</label><br>
+		<input type="text" name="firstname" placeholder="Firstname">
+		<br><br>
+		<label>Lastname</label><br>
+		<input type="text" name="lastname" placeholder="Lastname">
+		<br><br>
+		<label>Email</label><br>
+		<input type="email" name="email" placeholder="Email" required>
+		<br><br>
+		<label>Message</label><br>
+		<textarea name="message"> </textarea>
+		<br><br>
+		<input type="submit" name="submit" value="Submit">
+	</form>
+</body>
+</html>
